@@ -1,0 +1,1 @@
+python predictor.py --input_csv xxx.csv  --output_csv ./submit/submit.csv

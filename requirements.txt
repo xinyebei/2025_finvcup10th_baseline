@@ -1,0 +1,16 @@
+albumentations==2.0.5
+dlib==19.24.0
+imutils==0.5.4
+lmdb==1.6.2
+matplotlib==3.10.1
+numpy==1.26.4
+pandas==2.2.3
+Pillow==11.2.1
+PyYAML==6.0.2
+scikit_learn==1.6.1
+scikit-image
+tqdm==4.67.1
+transformers==4.49.0
+lightning
+tensorboard
+torchvision
