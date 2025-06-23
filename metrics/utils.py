@@ -4,7 +4,7 @@ param :
 return: 
 Author: xinyebei@xinye.com
 Date: 2025-01-14 18:01:28
-LastEditors: maoyangjun@xinye.com
+LastEditors: xinyebei@xinye.com
 '''
 import matplotlib.pyplot as plt
 import numpy as np
