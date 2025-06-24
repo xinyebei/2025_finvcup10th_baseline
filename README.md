@@ -4,7 +4,7 @@
  * @return: 
  * @Author: xinyebei@xinye.com
  * @Date: 2025-04-28 14:35:42
- * @LastEditors: xinybei@xinye.com
+ * @LastEditors: xinyebei@xinye.com
 -->
 > # 第十届信也杯baseline
 这是第十届信也科技杯baseline。 本届全球算法大赛聚焦人脸深度鉴伪，挑战前沿AI技术，以推动国际合作，引导科技向善。
@@ -23,7 +23,7 @@
 
 
 ## 1. 数据准备
-将训练、公开测试集解压到`/data`下,根据`train.txt`文件，整理构成
+将训练、公开测试集解压到`/data`下,包含`train.txt`文件，整理构成
 ``` bash
 ├── data
 │   ├── data1    #训练集+公开测试集，在压缩包内
@@ -157,7 +157,7 @@ bash run.sh
 ## 6. 注意事项
 1. 训练时，请确保`configs/xxx.yaml`中的`train_dataset`字段与`data/prepare_dataset_info.py`生成的`dataset_name`一致，这样才可以训练。
 2. 请各位选后自行组织自己的推理脚本，并写入`run.sh`中，但是注意私有测试集的路径是`/data/data2/test2/images`，选手需要确保脚本可以顺利对改路径下的图片进行推理。
-3. `submit.csv`文件需要包含"image_name, score" header，csv文件使用`,`作为分隔符。我们在example/example_sunmit.csv中给出了示例，提交的结果请务必按包含该文件中所有的`image_name`。
+3. `submit.csv`文件需要包含"image_name, score" header，csv文件使用`,`作为分隔符。
 
 
 
