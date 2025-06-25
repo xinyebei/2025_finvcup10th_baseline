@@ -4,7 +4,7 @@
  * @return: 
  * @Author: xinyebei@xinye.com
  * @Date: 2025-04-28 14:35:42
- * @LastEditors: xinyebei@xinye.com
+ * @LastEditors: maoyangjun@xinye.com
 -->
 > # 第十届信也杯baseline
 这是第十届信也科技杯baseline。 本届全球算法大赛聚焦人脸深度鉴伪，挑战前沿AI技术，以推动国际合作，引导科技向善。
@@ -135,7 +135,7 @@ python prepare_dataset_info.py --label_info /data/data1/train.txt --mode train -
 python train.py --task_target exp_name --detector_path ./configs/xception.yaml 
 
 # ddp训练
-bash train.sh exp_name 48001
+bash train.sh exp_name 48001 ./configs/xception.yaml 
 ```
 
 ## 5. 推理(仅针对晋级复赛的参赛队伍)
